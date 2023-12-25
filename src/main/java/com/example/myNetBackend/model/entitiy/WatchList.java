@@ -5,8 +5,8 @@ import java.time.LocalDateTime;
 import lombok.Data;
 
 @Data
-public class WatchLater {
+public class WatchList {
     
-    private int watchLaterId;
+    private int watchListId;
     private LocalDateTime localDateTime;
 }
