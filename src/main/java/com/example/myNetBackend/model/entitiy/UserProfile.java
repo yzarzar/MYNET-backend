@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class UserProfile {
     
-    private int UserProfileId;
+    private int userProfileId;
     private String nickName;
     private String photoUrl;
     private String bio;
