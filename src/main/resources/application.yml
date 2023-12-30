@@ -13,8 +13,8 @@ spring:
         format_sql: true
   mvc:
     format:
-      date: yyyy-MM-dd
-      date-time: yyyy-MM-dd HH:mm:ss
+      date: MM/dd/yyyy
+      date-time: MM/dd/yyyy HH:mm:ss
 app:
   image:
     folder: resources
