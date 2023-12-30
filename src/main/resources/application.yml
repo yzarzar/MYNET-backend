@@ -15,3 +15,6 @@ spring:
     format:
       date: yyyy-MM-dd
       date-time: yyyy-MM-dd HH:mm:ss
+app:
+  image:
+    folder: resources

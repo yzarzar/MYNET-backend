@@ -36,19 +36,4 @@ public class MyNetBackendApplication implements CommandLineRunner {
             userRepository.save(user);
         }
     }
-
-    @Bean
-    public WebMvcConfigurer webMvcConfigurer(){
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins("*")
-                        .allowedHeaders("*")
-                        .allowedMethods("*")
-                        .exposedHeaders("*");
-
-            }
-        };
-    }
 }
