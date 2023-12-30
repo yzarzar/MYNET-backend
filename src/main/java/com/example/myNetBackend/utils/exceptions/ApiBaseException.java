@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class ApiBaseException extends RuntimeException{
     
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1;
 
     private List<String> messages;
 
